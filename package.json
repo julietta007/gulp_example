@@ -6,7 +6,7 @@
   "dependencies": {
     "bootstrap": "4.0.0-beta.3",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.9.2",
+    "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
     "gulp-scss": "^1.4.0",
@@ -14,6 +14,12 @@
     "gulp-watch": "^4.3.11",
     "jquery": "^3.2.1",
     "merge-stream": "^1.0.1",
-    "popper.js": "^1.12.9"
-  }
+    "popper.js": "^1.12.9",
+    "snyk": "^1.116.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
