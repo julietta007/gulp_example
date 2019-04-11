@@ -12,7 +12,7 @@
     "gulp-scss": "^1.4.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.0",
     "merge-stream": "^1.0.1",
     "popper.js": "^1.12.9"
   }
