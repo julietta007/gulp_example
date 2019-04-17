@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gulp-watch > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-04-17T10:39:03.966Z'
+    - gulp-watch > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-04-17T10:39:03.966Z'
+    - gulp-watch > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-04-17T10:39:03.966Z'
+    - gulp-watch > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-17T10:39:03.966Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-04-17T10:39:03.966Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-04-17T10:39:03.966Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-04-17T10:39:03.966Z'
