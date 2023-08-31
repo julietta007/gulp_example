@@ -14,6 +14,12 @@
     "gulp-watch": "^4.3.11",
     "jquery": "^3.2.1",
     "merge-stream": "^1.0.1",
-    "popper.js": "^1.12.9"
-  }
+    "popper.js": "^1.12.9",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
